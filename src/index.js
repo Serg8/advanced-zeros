@@ -1,6 +1,6 @@
 module.exports = function getZerosCount(number, base) {
   "use strict";
-  let zeros=0, multipliers={}, currentNumber, arr = [], count, j, currentNumberCount;
+  let multipliers={}, currentNumber, arr = [], count, j, currentNumberCount;
     
     for(let i=2; i<=base; i++) {
        if(base%i == 0) {
